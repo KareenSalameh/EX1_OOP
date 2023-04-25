@@ -4,7 +4,7 @@
 #define _RECT
 
 #include "Point.h"
-
+ 
 using namespace std;
 
 class Rectangle

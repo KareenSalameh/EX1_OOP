@@ -3,7 +3,7 @@
 
 Grid::Grid(double tileW, double tileH, int width, int height, int color) {
 	//num of all rectangles in grid.
-	numOfRect = width * height;
+	numOfRect = width * height; 
 	//Setting rects array as example A**() in the exercise/
 	arr_rect = new Rectangle * [numOfRect];
 	for (int i = 0; i < width; i++) {

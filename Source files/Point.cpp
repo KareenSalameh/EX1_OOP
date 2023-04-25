@@ -4,7 +4,7 @@
 //Constructor of the class Point
 Point::Point(double x, double y) {
 	_x = x;
-	_y = y;
+	_y = y; 
 }
 
 void Point::setX(double x) {

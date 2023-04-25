@@ -2,7 +2,7 @@
 
 #ifndef _POINT
 #define _POINT
-
+ 
 using namespace std;
 
 class Point

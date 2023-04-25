@@ -13,7 +13,7 @@ Rectangle::Rectangle(double left, double top, double width, double height, int c
 
 }
 int Rectangle::getColor() const {
-	return _color;
+	return _color; 
 }
 Point& Rectangle::getTopLeftPoint() {
 	return *(this->t_left);

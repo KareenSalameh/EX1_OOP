@@ -1,17 +1,16 @@
+//Kareen Salameh 322752981
+
 #ifndef _GRID
 #define _GRID
- 
-//Kareen Salameh 322752981
 
 #include "Rectangle.h"
 
 using namespace std;
 
-class Grid
-{
+class Grid {
+private:
 	int numOfRect;
-	Rectangle** arr_rect;
-	//REctangle** arr_rect= new Rectangle*[numOfRect] -> in constructor
+	Rectangle** arrOfRect;
 
 public:
 	Grid(double tileW, double tileH, int width, int height, int color);
